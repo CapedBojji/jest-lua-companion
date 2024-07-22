@@ -1,0 +1,21 @@
+{
+	"Matter System": {
+		"prefix": "msystem",
+		"body": [
+			"/* eslint-disable react-hooks/rules-of-hooks -- Not a react hook */",
+			"import { GameEvent } from \"config/enums/matter\";",
+			"import type { GameSystem } from \"types/matter\";",
+			"",
+			"const System: GameSystem = {",
+			"  event: ${1:GameEvent.Update},",
+			"  system: (world, state, contextEntity) => {",
+            "${2}",
+            "",
+			"  },",
+			"};",
+			"",
+			"export = System;"
+		],
+		"description": "Creates a system"
+	}
+}

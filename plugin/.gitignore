@@ -1,0 +1,28 @@
+/node_modules
+/out
+*.tsbuildinfo
+game.rbxlx
+*.tsbuildinfo
+flamework.build
+
+# Misc
+.DS_Store
+
+/dist
+sourcemap.json
+*.rbxl.lock
+*.rbxl
+*.rbxlx
+
+# Bundled eslint config
+*.mjs
+
+.env
+.venv
+
+# Roblox Ts
+include
+sourcemap.json
+
+# pnpm
+pnpm-lock.yaml
