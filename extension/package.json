@@ -13,6 +13,7 @@
     "workspaceContains:*.project.json",
     "onCommand:jestlua-companion.runTests",
     "onCommand:jestlua-companion.installPlugin",
+    "on",
     "onCommand:jestlua-companion.buildPlugin",
     "onUri"
   ],
