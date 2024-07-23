@@ -1,6 +1,6 @@
 {
-  "name": "extension",
-  "displayName": "extension",
+  "name": "jestlua-companion",
+  "displayName": "JestLua Companion",
   "description": "A jestlua companion extension",
   "version": "0.0.1",
   "engines": {
@@ -13,12 +13,24 @@
     "workspaceContains:*.project.json",
     "onCommand:jestlua-companion.runTests",
     "onCommand:jestlua-companion.installPlugin",
-    "on",
     "onCommand:jestlua-companion.buildPlugin",
     "onUri"
   ],
   "main": "./dist/extension.js",
   "contributes": {
+    "configuration": {
+      "title": "jestlua-companion",
+      "properties": {
+        "jestlua-companion.jestluaPath": {
+          "type": "string",
+          "default": "jestlua"
+        },
+        "jestlua-companion.jestluaPluginPath": {
+          "type": "string",
+          "default": "jestlua-plugin"
+        }
+      }
+    },
     "commands": [
       {
         "command": "extension.helloWorld",
