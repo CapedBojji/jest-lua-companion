@@ -9,7 +9,12 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "workspaceContains:*.project.json",
+    "onCommand:jestlua-companion.runTests",
+    "onCommand:jestlua-companion.installPlugin",
+    "onCommand:jestlua-companion.buildPlugin"
+  ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
