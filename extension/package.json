@@ -3,7 +3,7 @@
   "displayName": "JestLua Companion",
   "description": "A jestlua companion extension",
   "version": "0.0.1",
-  "icon": "images/icon.png",
+  "icon": "assets/icon.png",
   "engines": {
     "vscode": "^1.91.0"
   },
